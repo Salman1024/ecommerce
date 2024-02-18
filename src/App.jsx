@@ -30,7 +30,7 @@ function App() {
       </p>
       export default function App() {
   
-    <h1 className="text-3xl bg-red-600 font-bold underline">
+    <h1 className="text-3xl bg-slate-800 font-bold underline">
       Hello world!
     </h1>
   
