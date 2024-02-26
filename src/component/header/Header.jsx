@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <div className="header-container fixed w-full bg-white">
       <ContentWrapper>
-        <div className="header flex gap-3 items-center justify-between px-6 h-16">
+        <div className="header flex gap-3 items-center justify-between h-16">
           <div className="logo cursor-pointer ">
             <span className="logo-name text-2xl text-blue-700 font-bold">
               <Link to="/">MegaMart</Link>
