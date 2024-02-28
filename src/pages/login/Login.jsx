@@ -9,8 +9,8 @@ const Login = () => {
       <ContentWrapper>
         <div className="section flex items-center justify-center h-[80vh] ">
           <div className="box bg-white w-[500px] max-sm:p-3 p-8 leading-normal shadow-lg max-sm:w-full">
-            <div className="login-title flex items-center justify-center overflow-hidden text-ellipsis ">
-              <p className="text-2xl font-semibold mb-2">Sign In to MegaMart</p>
+            <div className="login-title flex items-center justify-center ">
+              <p className="text-2xl font-semibold mb-2 overflow-hidden text-ellipsis whitespace-nowrap">Sign In to MegaMart</p>
             </div>
             <div className="input-section w-full">
               <div className="input-field flex flex-col mb-3">
@@ -32,12 +32,16 @@ const Login = () => {
                 />
                 
               </div>
-              <div className="">
+              <div className="flex justify-between max-sm:flex-col gap-2">
                 <a href="#" className=" text-blue-700">
                   {" "}
                   Forget Password?
                 </a>
                 
+                <a href="#" className=" text-blue-700">
+                  {" "}
+                  Create Account
+                </a>
               </div>
               <div className="sign-btn my-2">
                 <button className="bg-green-500 w-full py-2 px-2 text-white rounded-lg">Sign In</button>
