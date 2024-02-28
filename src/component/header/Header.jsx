@@ -7,7 +7,7 @@ import ContentWrapper from "../contentWrapper/ContentWrapper";
 
 const Header = () => {
   return (
-    <div className="header-container fixed w-full bg-white">
+    <div className="header-container z-[2]  w-full bg-white">
       <ContentWrapper>
         <div className="header flex gap-3 items-center justify-between h-16">
           <div className="logo cursor-pointer ">

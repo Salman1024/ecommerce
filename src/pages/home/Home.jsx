@@ -1,14 +1,13 @@
-import React from 'react'
-import Header from '../../component/header/Header'
+import React from "react";
+import Header from "../../component/header/Header";
+import HeroBanner from "./heroBanner/HeroBanner";
 
 const Home = () => {
   return (
     <>
-        <div className="homePage py-24">
-           <p>Home</p>
-        </div>
+      <HeroBanner />
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
