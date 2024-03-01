@@ -15,7 +15,7 @@ const Header = () => {
               <Link to="/">MegaMart</Link>
             </span>
           </div>
-          <div className="center-section flex items-center justify-center px-1 border border-gray-400  rounded-full cursor-pointer w-[800px]">
+          <div className="center-section max-sm:hidden flex items-center justify-center px-1 border border-gray-400  rounded-full cursor-pointer w-[800px]">
             <input
               className="search p-2 rounded-full outline-none w-full"
               placeholder="Search for anything"
@@ -23,7 +23,7 @@ const Header = () => {
             />
             <SearchSharpIcon sx={{ fontSize: 30 }} />
           </div>
-          <div className="right-section flex gap-5 cursor-pointer">
+          <div className="right-section flex gap-5 cursor-pointe max-sm:hidden r">
             <div className="login-signup">
               <Link to="/login" className="nav-name flex items-center">
                 <LoginIcon sx={{ fontSize: 25, marginRight: "5px" }} />
