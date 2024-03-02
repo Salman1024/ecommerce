@@ -4,6 +4,7 @@ import living from '../../../assets/living.jpg'
 import dog from '../../../assets/dog.jpg'
 
 
+
 const HeroBanner = () => {
 
   const images=[toy,living,dog];
@@ -15,16 +16,16 @@ const HeroBanner = () => {
     const interval=setInterval(()=>
     {
       setCurrentImage((prevIndex) =>(prevIndex === length -1 ? 0 : prevIndex + 1)   )
-    },5000);
+    },8000);
     return ()=> clearInterval(interval)
   },[])
 
 
   return (
     <>
-      <div className="banner ">
-        <img src={images[currentImage]} alt="" />
-        <p>Hero Banner</p>
+      <div className="banner relative">
+        <img className="w-full h-auto object-cover object-center " src={images[currentImage]} alt="banner-image" />
+        
       </div>
     </>
   );
