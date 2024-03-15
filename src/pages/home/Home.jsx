@@ -7,9 +7,7 @@ import Product from "../../component/product/Product";
 const Home = () => {
   return (
     <>
-      <HeroBanner />
-      <Categories/>
-      <Product/>
+      <p>homePage</p>
     </>
   );
 };
